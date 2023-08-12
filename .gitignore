@@ -1,0 +1,8 @@
+.vscode/
+
+## node
+node_modules/
+out/
+
+## pass
+git_pass.txt

@@ -9,7 +9,7 @@ module.exports = {
             config: {
                 repository: {
                     owner: "soreiyu52",
-                    name: "electron",
+                    name: "electronTutorial",
                 },
                 prerelease: false,
                 draft: true,

@@ -13,6 +13,8 @@ const createWindow = () => {
     win.loadFile("index.html");
 };
 
+require("update-electron-app")();
+
 app.whenReady().then(() => {
     ipcMain.handle("ping", () => "pong");
     createWindow();

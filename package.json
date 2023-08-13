@@ -1,6 +1,6 @@
 {
     "name": "my-electron-app",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "test",
     "main": "main.js",
     "scripts": {
@@ -23,6 +23,7 @@
         "electron": "^25.5.0"
     },
     "dependencies": {
-        "electron-squirrel-startup": "^1.0.0"
+        "electron-squirrel-startup": "^1.0.0",
+        "update-electron-app": "^2.0.1"
     }
 }

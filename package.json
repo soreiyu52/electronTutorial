@@ -10,6 +10,10 @@
         "make": "electron-forge make",
         "publish": "electron-forge publish"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/soreiyu52/electronTutorial.git"
+    },
     "author": "John",
     "license": "MIT",
     "devDependencies": {

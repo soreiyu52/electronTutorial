@@ -1,5 +1,6 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("path");
+require("update-electron-app")();
 
 const createWindow = () => {
     const win = new BrowserWindow({
@@ -12,8 +13,6 @@ const createWindow = () => {
 
     win.loadFile("index.html");
 };
-
-require("update-electron-app")();
 
 app.whenReady().then(() => {
     ipcMain.handle("ping", () => "pong");
